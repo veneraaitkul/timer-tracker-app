@@ -1,0 +1,28 @@
+{
+  "name": "time-tracker-app",
+  "version": "1.0.0",
+  "description": "Simple time-tracking application.",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Venera Aitkul",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphiql": "^1.0.3",
+    "graphql": "^15.3.0",
+    "nodemon": "^2.0.4",
+    "react-router-dom": "^5.2.0",
+    "sequelize": "^6.3.3",
+    "sqlite3": "^5.0.0"
+  }
+}

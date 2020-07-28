@@ -1,0 +1,11 @@
+.is-clipped {
+  overflow: hidden !important;
+}
+
+.is-ellipsis {
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100px;
+  overflow: hidden;
+}
