@@ -5,6 +5,10 @@ Simple time tracker app using ReactJS/GraphQL/Apollo/SQLite/SCSS.
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs packages for server-side.
+
 ### `npm run client-install`
 
 Installs packages in client folder.
