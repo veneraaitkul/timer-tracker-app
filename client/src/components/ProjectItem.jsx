@@ -53,7 +53,7 @@ const ProjectItem = memo(({
             <span className="material-icons is-size-6">delete</span>
           </span>
 
-          <Link to={`/edit/${id}`} className="icon is-small has-text-dark">
+          <Link to={`/edit/${id}`} className="icon is-small has-text-light">
             <span className="material-icons is-size-6">create</span>
           </Link>
         </span>
@@ -68,7 +68,7 @@ const ProjectItem = memo(({
       </div>
       <footer className="card-footer">
         <Link to={`/projects/${id}`} className="card-footer-item">
-          <button className="button is-primary is-small is-outlined">
+          <button className="button is-link has-text-light is-small is-outlined">
             <span>More details</span>
             <span className="icon is-small">
               <span className="material-icons">navigate_next</span>

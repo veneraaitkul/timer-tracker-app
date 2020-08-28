@@ -17,12 +17,19 @@ const Navigation = () => {
   return (
     <nav className="level is-mobile mb-6">
       <div className="level-left">
-        <p className="level-item title is-4">Projects</p>
+        <p className="level-item">
+          <span className="icon is-small mr-2 has-text-link">
+            <span className="material-icons">dashboard</span>
+          </span>
+          <span className=" title has-text-light is-5 is-uppercase">
+            Projects
+          </span>
+        </p>
       </div>
 
       <div className="level-right">
         <div className="level-item">
-          <Link to={`/new`} className="button is-primary">
+          <Link to={`/new`} className="button is-danger has-text-dark">
             <span>New Project</span>
             <span className="icon is-small">
               <span className="material-icons">add</span>
